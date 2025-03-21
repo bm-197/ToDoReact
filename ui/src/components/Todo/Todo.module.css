@@ -1,0 +1,46 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.addTask input,
+.addTask input:focus {
+  outline: none;
+  border: none;
+  background-color: antiquewhite;
+  height: 2.5rem;
+  width: 20rem;
+  font-size: 1rem;
+  margin: 0;
+  border-radius: var(--radius) 0 0 var(--radius);
+  color: #1c1b1bd9;
+  padding: 0.8rem;
+}
+
+.addTask button {
+  border-radius: 0 var(--radius) var(--radius) 0;
+  height: 2.5rem;
+  width: 4rem;
+  margin: 0;
+  background-color: rgb(104, 147, 197);
+  color: white;
+  outline: none;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1rem;
+    background-color: antiquewhite;
+    margin-top: 1rem;
+    width: 24rem;
+    border-radius: var(--radius);
+  }
